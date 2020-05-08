@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="PaymentInformationDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="PaymentInformationPN" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="PaymentInformationPN" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="PaymentInformationPN">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="&#xb0a9;&#xbd80;&#xc815;&#xbcf4; &#xbcc0;&#xacbd;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="UpdateCancleBT" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="UpdateBT" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="pymnMthdJL1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="pymnMthdCB" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="fnncInstJL1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="fnncInstCB" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="msrmDpstJL1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="msrmDpstTF1" min="-2" pref="113" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="bankacntNmbrJL1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="bankacntNmbrTF1" min="-2" pref="113" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="msrmDpstJL1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="msrmDpstTF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fnncInstJL1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fnncInstCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bankacntNmbrJL1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bankacntNmbrTF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pymnMthdJL1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pymnMthdCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="UpdateBT" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="UpdateCancleBT" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="msrmDpstJL1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc608;&#xae08;&#xc8fc;&#xba85; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="msrmDpstTF1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="fnncInstJL1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xae08;&#xc735;&#xae30;&#xad00; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="bankacntNmbrTF1">
+            </Component>
+            <Component class="javax.swing.JLabel" name="bankacntNmbrJL1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xacc4;&#xc88c;&#xbc88;&#xd638; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pymnMthdJL1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xb0a9;&#xbd80;&#xbc29;&#xbc95; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="UpdateBT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xd655;&#xc778;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UpdateBTActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="UpdateCancleBT">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xcde8;&#xc18c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UpdateCancleBTActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="pymnMthdCB">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="&#xc790;&#xb3d9;&#xb0a9;&#xbd80;"/>
+                    <StringItem index="1" value="&#xc218;&#xb3d9;&#xb0a9;&#xbd80;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="fnncInstCB">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="21">
+                    <StringItem index="0" value="&#xad6d;&#xbbfc;&#xc740;&#xd589;"/>
+                    <StringItem index="1" value="&#xc6b0;&#xb9ac;&#xc740;&#xd589;"/>
+                    <StringItem index="2" value="&#xc2e0;&#xd55c;&#xc740;&#xd589;"/>
+                    <StringItem index="3" value="&#xd558;&#xb098;&#xc740;&#xd589;"/>
+                    <StringItem index="4" value="&#xd55c;&#xad6d;&#xc528;&#xd2f0;&#xc740;&#xd589;"/>
+                    <StringItem index="5" value="&#xb300;&#xad6c;&#xc740;&#xd589;"/>
+                    <StringItem index="6" value="&#xbd80;&#xc0b0;&#xc740;&#xd589;"/>
+                    <StringItem index="7" value="&#xad11;&#xc8fc;&#xc740;&#xd589;"/>
+                    <StringItem index="8" value="&#xc804;&#xbd81;&#xc740;&#xd589;"/>
+                    <StringItem index="9" value="&#xacbd;&#xb0a8;&#xc740;&#xd589;"/>
+                    <StringItem index="10" value="&#xc81c;&#xc8fc;&#xc740;&#xd589;"/>
+                    <StringItem index="11" value="&#xb18d;&#xd611;"/>
+                    <StringItem index="12" value="&#xc218;&#xd611;"/>
+                    <StringItem index="13" value="&#xd55c;&#xad6d;&#xc0b0;&#xc5c5;&#xc740;&#xd589;"/>
+                    <StringItem index="14" value="&#xae30;&#xc5c5;&#xc740;&#xd589;"/>
+                    <StringItem index="15" value="&#xc218;&#xcd9c;&#xc785;&#xc740;&#xd589;"/>
+                    <StringItem index="16" value="&#xc2e0;&#xd611;"/>
+                    <StringItem index="17" value="&#xc6b0;&#xccb4;&#xad6d;"/>
+                    <StringItem index="18" value="&#xc0c8;&#xb9c8;&#xc744;&#xae08;&#xace0;"/>
+                    <StringItem index="19" value="&#xc0b0;&#xb9bc;&#xc870;&#xd569;"/>
+                    <StringItem index="20" value="&#xc800;&#xcd95;&#xc740;&#xd589;"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xd30c;&#xc77c;(File)"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuExit">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+F4"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xc885;&#xb8cc;(Exit)"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuExitActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="Citygasbill" min="-2" pref="720" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Citygasbill" pref="701" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+    </Component>
+    <Container class="javax.swing.JPanel" name="Citygasbill">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#xb3c4;&#xc2dc;&#xac00;&#xc2a4;&#xccad;&#xad6c;&#xc11c;"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="ClientListTab">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="30" width="688" height="217"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="&#xae30;&#xc5c5; &#xace0;&#xac1d;">
+                    <Property name="tabTitle" type="java.lang.String" value="&#xae30;&#xc5c5; &#xace0;&#xac1d;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="BusinessClientListTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="5" rowCount="0">
+                        <Column editable="true" title="No." type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xbc88;&#xd638;" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xc774;&#xb984;" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xc8fc;&#xc18c;" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xcd5c;&#xadfc; &#xac80;&#xce68;&#xc77c;" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="50" minWidth="50" prefWidth="50" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="100" minWidth="100" prefWidth="100" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="100" minWidth="100" prefWidth="100" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="320" minWidth="320" prefWidth="320" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="120" minWidth="120" prefWidth="120" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BusinessClientListTableMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="&#xc77c;&#xbc18; &#xace0;&#xac1d;">
+                    <Property name="tabTitle" type="java.lang.String" value="&#xc77c;&#xbc18; &#xace0;&#xac1d;"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="GeneralClientListTable">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="5" rowCount="0">
+                        <Column editable="false" title="No." type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xbc88;&#xd638;" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xc774;&#xb984;" type="java.lang.Object"/>
+                        <Column editable="false" title="&#xace0;&#xac1d;&#xc8fc;&#xc18c;" type="java.lang.Object"/>
+                        <Column editable="true" title="&#xcd5c;&#xadfc; &#xac80;&#xce68;&#xc77c;" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="50" minWidth="50" prefWidth="50" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="100" minWidth="100" prefWidth="100" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="100" minWidth="100" prefWidth="100" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="320" minWidth="320" prefWidth="320" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="120" minWidth="120" prefWidth="120" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="GeneralClientListTableMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="clientSearchTF">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clientSearchTFActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="250" width="150" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="ClientCheakBT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc870;&#xd68c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClientCheakBTActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="640" y="250" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="clientSearchBT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xac80;&#xc0c9;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="clientSearchBTActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="180" y="250" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="clientDetails">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="&#xc0c1;&#xc138;&#xc815;&#xbcf4;"/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="290" width="440" height="220"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="nmbrfuelQnttIndcJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nmbrfuelQnttIndcTF" min="-2" pref="114" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="qnttrQstJL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="qnttrQstTF" min="-2" pref="113" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="usageJL" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="usageTF" min="-2" pref="113" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="206" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="clientNameJL" min="-2" max="-2" attributes="0"/>
+                                  <Component id="meterNumberJL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="clientAddressJL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="thisMonthJL" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="thisMonthTF" pref="113" max="32767" attributes="0"/>
+                                          <Component id="meterNumberTF" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="crctFctrJL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lastMonthJL" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="crctFctrTF" pref="114" max="32767" attributes="0"/>
+                                          <Component id="lastMonthTF" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="clientAddressTF" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="clientNameTF" min="-2" pref="113" max="-2" attributes="0"/>
+                                              <EmptySpace pref="25" max="32767" attributes="0"/>
+                                              <Component id="clientNumberJL" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="clientNumberTF" min="-2" pref="116" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="clientNameJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clientNameTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clientNumberJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clientNumberTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="clientAddressJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="clientAddressTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="meterNumberJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="meterNumberTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastMonthJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastMonthTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="thisMonthJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="thisMonthTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="crctFctrJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="crctFctrTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="usageJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="usageTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nmbrfuelQnttIndcJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="nmbrfuelQnttIndcTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="qnttrQstJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="qnttrQstTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="clientNameJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xace0;&#xac1d;&#xba85; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="clientNumberJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xace0;&#xac1d;&#xbc88;&#xd638; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="clientAddressJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xace0;&#xac1d;&#xc8fc;&#xc18c; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="clientNameTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="clientNumberTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="clientAddressTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="meterNumberJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xacc4;&#xb7c9;&#xae30;&#xbc88;&#xd638; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="meterNumberTF">
+            </Component>
+            <Component class="javax.swing.JTextField" name="lastMonthTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lastMonthJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc804;&#xc6d4;&#xc9c0;&#xce68; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="thisMonthJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xb2f9;&#xc6d4;&#xc9c0;&#xce68; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="thisMonthTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="crctFctrJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xbcf4;&#xc815;&#xacc4;&#xc218; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="crctFctrTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="usageJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc0ac;&#xc6a9;&#xb7c9; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="usageTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nmbrfuelQnttIndcJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc5f4;&#xb7c9;&#xacc4;&#xc218; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nmbrfuelQnttIndcTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="qnttrQstJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xccad;&#xad6c;&#xb7c9; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="qnttrQstTF">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="&#xc790;&#xb3d9;&#xb0a9;&#xbd80; &#xc774;&#xccb4;&#xc548;&#xb0b4;"/>
+              </Border>
+            </Property>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+          </AccessibilityProperties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="470" y="290" width="240" height="150"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="msrmDpstJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="msrmDpstTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="fnncInstJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="fnncInstTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bankacntNmbrJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bankacntNmbrTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="trnsDateJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="trnsDateTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="msrmDpstJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="msrmDpstTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fnncInstJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fnncInstTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bankacntNmbrJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bankacntNmbrTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="trnsDateJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="trnsDateTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="msrmDpstTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="msrmDpstJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc608;&#xae08;&#xc8fc;&#xba85; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fnncInstJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xae08;&#xc735;&#xae30;&#xad00; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="fnncInstTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="bankacntNmbrJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xacc4;&#xc88c;&#xbc88;&#xd638; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="bankacntNmbrTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="trnsDateJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xc774;&#xccb4;&#xc77c;&#xc790; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="trnsDateTF">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="ClientCheakBT1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc870;&#xd68c;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClientCheakBT1ActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="640" y="250" width="70" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="&#xc694;&#xae08;&#xb0a9;&#xbd80; &#xc815;&#xbcf4;"/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="470" y="450" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="rcptAmntJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="rcptAmntTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="pymnMthdJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pymnMthdTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="amntJL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="amntTF" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rcptAmntJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="rcptAmntTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="pymnMthdJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pymnMthdTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="amntJL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="amntTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="rcptAmntJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xae08;&#xc561;&#xc218;&#xb0a9;&#xc77c; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rcptAmntTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="pymnMthdJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xb0a9;&#xbd80;&#xbc29;&#xbc95; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="pymnMthdTF">
+            </Component>
+            <Component class="javax.swing.JLabel" name="amntJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xae08;&#xc561; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="amntTF">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="paymentUpdateBT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xc790;&#xb3d9;&#xc774;&#xccb4; &#xc815;&#xbcf4; &#xbcc0;&#xacbd;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="paymentUpdateBTActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="470" y="580" width="240" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="2"/>
+              </Border>
+            </Property>
+            <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[32767, 32667]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="20" y="520" width="440" height="45"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="savingJL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="387" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="savingJL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="savingJL">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
